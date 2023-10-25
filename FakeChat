@@ -766,6 +766,23 @@ TextButton.BackgroundTransparency = 1.000
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, -10, 0, 12)
 TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Fake Shutdown Without Bracket"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	Real.TextBox.Text = ";shutdown"
+	Fake.TextBox.Text = "Server: Shutting down in 60 seconds"
+end)
+
+local TextButton = Instance.new("TextButton")
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, -10, 0, 12)
+TextButton.Font = Enum.Font.Gotham
 TextButton.Text = "Join Team"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
@@ -791,4 +808,55 @@ TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
 	Real.TextBox.Text = ""
 	Fake.TextBox.Text = "[Server]: "
+end)
+
+local TextButton = Instance.new("TextButton")
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, -10, 0, 12)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "System Message Without Bracket"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	Real.TextBox.Text = ""
+	Fake.TextBox.Text = "Server: "
+end)
+
+local TextButton = Instance.new("TextButton")
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, -10, 0, 12)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Found Cheater Prank"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	Real.TextBox.Text = ""
+	Fake.TextBox.Text = "[System]: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You All Players."
+end)
+
+local TextButton = Instance.new("TextButton")
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, -10, 0, 12)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Found Cheater Prank Without Bracket"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	Real.TextBox.Text = ""
+	Fake.TextBox.Text = "System: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You All Players."
 end)
