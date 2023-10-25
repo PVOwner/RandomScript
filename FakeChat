@@ -840,8 +840,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
-	Real.TextBox.Text = ""
-	Fake.TextBox.Text = "[System]: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You All Players."
+	setclipboard("[System]: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You All Players.")
 end)
 
 local TextButton = Instance.new("TextButton")
@@ -857,6 +856,5 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
-	Real.TextBox.Text = ""
-	Fake.TextBox.Text = "System: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You All Players."
+	setclipboard("System: Successfully Found 'Cheater' Name: "targetname" Please Report If targetname Has Any Suspension, Thanks You Players.
 end)
