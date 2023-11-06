@@ -826,3 +826,8 @@ TextButton.MouseButton1Down:Connect(function()
 	Real.TextBox.Text = ""
 	Fake.TextBox.Text = "Server: "
 end)
+
+local notification = Instance.new("Sound")
+notification.Parent = game:GetService("SoundService")
+notification.SoundId = "rbxassetid://9086208751"
+notification.Volume = 10
